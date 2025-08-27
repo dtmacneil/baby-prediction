@@ -32,6 +32,7 @@ The data was structured in a fixed width text file; this was parsed using the sp
 The data was split into a training and test set to prevent overfitting and enable model evaluation. Training data was prepared and cleansed following the steps in figure 1.
 
 !["Figure of data cleaning steps"](./reports/figures/fig1_data-preparation.png)
+
 Figure 1: Data preparation steps.
 
 ### Exclusion of records with an unknown measurement
@@ -49,9 +50,11 @@ Previous pregnancies counted the birth of the record, meaning if the birth was t
 ### BMI
 
 !["A histogram of bmi"](./reports/figures/fig2_bmi-distribution.png)
+
 Figure 2: Distribution of BMI.
 
 !["Image of python code"](./reports/figures/fig3_outlier-code.png)
+
 Figure 3: Code to identify outlier records and exclude.
 
 As per figure 2 BMI was normally distribution with a long tail of high values. The data sampled only American mothers, and America has some of the highest obesity in the world (Phelps, Nowell H et al. 2024). As the predictions are to be agnostic of country and my sister non-American, I decided to exclude records above the upper limit as seen in figure 3. This potentially could make the model less reliable for American predictions but more generally reliable for other populations.
@@ -102,6 +105,7 @@ Options 2 &3 were selected for random forests capability for handling outlier va
 Table 2: Model scoring metrics.
 
 !["Image of prediction fit"](./reports/figures/fig4_prediction-fit.png)
+
 Figure 4: Random forest prediction overlaid on training data.
 
 From table 2, we see that a random forest regressor using gestation duration was the best predictor with the smallest RMSE and R2. While the R2 value is much lower than typically desired, the context of figure 4 shows that it does appear to follow the trend despite the spread in the data.
@@ -125,4 +129,6 @@ Phelps, Nowell H et al. (2024) ‘Worldwide trends in underweight and obesity fr
 ### Supporting Material
 
 !["Image of pearson heatmap"](./reports/figures/fig5_pearson.png)
+
 Pearson correlation heatmap of linear variables.
+
