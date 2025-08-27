@@ -116,7 +116,7 @@ The random forest model using all independent variables also confirms that there
 
 ### References
 
-Data Access - Vital Statistics Online (2025) Centers for Disease Control and Prevention. Available at: [https://www.cdc.gov/nchs/data_access/VitalStatsOnline](https://www.cdc.gov/nchs/data_access/VitalStatsOnline).htm#Births (Accessed: 26 August 2025).
+Data Access - Vital Statistics Online (2025) Centers for Disease Control and Prevention. Available at: [https://www.cdc.gov/nchs/data_access/VitalStatsOnline](https://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm#Births) (Accessed: 26 August 2025).
 
 Data user agreement (2024) Centers for Disease Control and Prevention. Available at: [https://www.cdc.gov/nchs/policy/data-user-agreement.html](https://www.cdc.gov/nchs/policy/data-user-agreement.html) (Accessed: 27 August 2025).
 
@@ -131,4 +131,5 @@ Phelps, Nowell H et al. (2024) ‘Worldwide trends in underweight and obesity fr
 !["Image of pearson heatmap"](./reports/figures/fig5_pearson.png)
 
 Pearson correlation heatmap of linear variables.
+
 
