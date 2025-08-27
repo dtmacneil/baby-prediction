@@ -1,0 +1,14 @@
+{
+    "MAGER" : "mother_age_yrs",
+    "TBO_REC" : "previous_pregnancies_cnt",
+    "ILLB_R" : "interval_since_last_live_birth_mths",
+    "CIG_0" : "cigarettes_pre_daily_cnt",
+    "CIG_1" : "cigarettes_1st_daily_cnt",
+    "CIG_2" : "cigarettes_2nd_daily_cnt",
+    "CIG_3" : "cigarettes_3rd_daily_cnt",
+    "CIG_REC" : "is_smoker",
+    "BMI" : "mother_pre_bmi",
+    "RF_PPTERM" : "previous_pre_term_birth",
+    "COMBGEST" : "combined_gestation_wks",
+    "DBWT" : "baby_weight_g"
+}
